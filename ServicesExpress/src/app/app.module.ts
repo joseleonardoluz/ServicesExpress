@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderMain } from './header/header.component';
+import { Searcher } from './searcher/searcher.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderMain
+    HeaderMain,
+    Searcher
   ],
   imports: [
     BrowserModule

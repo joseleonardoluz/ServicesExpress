@@ -1,0 +1,40 @@
+.contenedor{
+    width: 98%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 480px){
+    .contenedor{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 768px){
+    .contenedor{
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 992px){
+    .contenedor{
+        width: 95%;
+        max-width: 1100;
+    }
+}
+div.barra{
+    background-color: rgb(0, 113, 186);
+    height: 60px;
+}
+nav.navegacion-principal{
+    width: 67%;
+    float: left;
+    text-align: right;
+    display: block;
+}
+nav.navegacion-principal a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
