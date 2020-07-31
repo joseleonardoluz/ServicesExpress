@@ -1,0 +1,16 @@
+.first-card{
+    background-color: orangered;
+    height: 400px;
+    width: 90%;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.info-card-main{
+    background-color: white;
+    height: 220px;
+    width: 370px;
+    top: 100px;
+    left: 50px;
+    position: absolute;    
+}
